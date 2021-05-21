@@ -6,6 +6,13 @@ import Hero from '../components/home-page/hero';
 import { getFeaturedPosts } from '../lib/posts-util';
 
 function HomePage(props) {
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?2b2c31b147980fb2ea4f0898f9c32d82";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
   return (
     <Fragment>
       <Head>
